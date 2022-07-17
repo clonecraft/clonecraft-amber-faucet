@@ -1,0 +1,16 @@
+{
+    "menu": [
+        {
+            "key": "MY_NFT_MENU",
+            "uri": "user/my-arts"
+        },
+        {
+            "key": "ART_MENU",
+            "uri": "arts"
+        },
+        {
+            "key": "PFP_MENU",
+            "uri": "pfp"
+        }
+    ]
+}

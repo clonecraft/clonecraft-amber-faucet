@@ -1,0 +1,125 @@
+.home-view {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    background     : #000;
+    height         : 100vh;
+    color          : #949191;
+    font-family    : 'Nanum Myeongjo', serif;
+    font-weight    : 700;
+    font-size      : 20px;
+
+    >section {
+        >header {
+            display        : flex;
+            justify-content: center;
+            align-items    : baseline;
+            margin-bottom  : 20px;
+
+            >h1 {
+                font-family : 'Trajan Pro Bold';
+                font-size   : 36px;
+                color       : #c3b995;
+                margin-right: 8px;
+            }
+
+            >p {
+                font-family: 'Trajan Pro Regular';
+            }
+        }
+
+        >article {
+            display       : flex;
+            flex-direction: column;
+
+            >.faucet-container {
+                display    : flex;
+                align-items: center;
+
+                >.input-container {
+                    margin-top  : 58px;
+                    margin-right: 8px;
+
+                    >label {
+                        display    : flex;
+                        font-weight: 700;
+
+                        >p {
+                            color       : #c3b995;
+                            margin-right: 4px;
+                        }
+
+                        >span {}
+                    }
+
+                    >input {
+                        font-size       : 20px;
+                        font-family     : 'Nanum Myeongjo', serif;
+                        margin-top      : 4px;
+                        background-color: rgb(157, 157, 151);
+                        border-radius   : 2px;
+                        padding         : 8px;
+                        text-align      : right;
+                        height          : 72px;
+                        width           : 100%;
+                    }
+                }
+            }
+
+            >.wallet-container {
+                display        : flex;
+                justify-content: flex-end;
+                align-items    : flex-end;
+                margin-top     : 16px;
+
+                >.input-container {
+                    >p {
+                        color       : #c3b995;
+                        margin-right: 4px;
+                        text-align  : right;
+                    }
+
+                    >input {
+                        font-size       : 20px;
+                        font-family     : 'Nanum Myeongjo', serif;
+                        margin-top      : 4px;
+                        background-color: rgb(157, 157, 151);
+                        border-radius   : 2px;
+                        padding         : 8px;
+                        text-align      : center;
+                        height          : 72px;
+                        width           : 100%;
+                    }
+                }
+            }
+
+            >.amber-container {
+                display        : flex;
+                justify-content: space-between;
+                align-items    : center;
+                margin-top     : 16px;
+
+                >.my-container {
+                    display: flex;
+
+                    >.amber {
+                        margin-left: 6px;
+                        color      : #fd9950;
+                    }
+                }
+
+                >a {
+                    display         : flex;
+                    align-items     : center;
+                    justify-content : center;
+                    width           : 185px;
+                    background-color: rgb(25, 23, 22);
+                    height          : 54px;
+                    border          : 2px solid rgb(87, 86, 51);
+                    border-radius   : 2px;
+                    color           : #c3b995;
+                }
+            }
+        }
+    }
+}
